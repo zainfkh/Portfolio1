@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@300&family=Poppins:wght@300&display=swap');
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 50px;
+    overflow: hidden;
+}
+.cursor{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index:8 ;
+    mix-blend-mode: difference;
+    transition:left all linear 0.5s top;
+    background-position: center;
+    background-size: cover;
+    transition: background-image ease 0.5s;
+}
+header hr{
+    border: 2px solid black;
+}
+.mid-txt{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 6rem;
+    line-height: 6.7rem;
+    letter-spacing: 1px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+.mailbox{
+    display: flex;
+    flex-direction: column; 
+    text-align:left;
+    align-items:flex-start;
+    gap: 8px;
+}
+.msg{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: rgb(119, 119, 119);
+    display: flex;
+}
+.coffee{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    padding-top: 20px;
+}
+.cof{
+  font-size: 14px;
+}
+
+.msg i{
+    color: gray;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 30px;
+}
+.char{
+    transform: translateY(110px);
+    transition: transform 0.5s;
+}
+
+.mail{
+    color: black;
+}
+.mail a{
+    color: black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.mail:hover a{
+  text-decoration: underline;
+}
+.mail i{
+    align-items: center;
+    margin-right: 15px;
+    color: gray;
+    font-size: 5px;
+    
+}
+.page2{
+height: 100vh;
+width: 100%;
+padding-bottom: 35%;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.socials p{
+    font-family: 'Bebas Neue', sans-serif;
+    position: relative;
+    letter-spacing: 1px;
+    font-size: 50px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.insta,.face{
+   margin-top: 5%;
+    color: rgb(255, 255, 255) ;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.insta:hover,.face:hover{
+    text-decoration: underline;
+}
+footer{
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+    padding-top: 7%;
+    margin-bottom: 12%;
+  }
+  .footer1 .leftfoot {
+    color: rgb(0, 0, 0);
+    font-size: 2.2vw;
+    letter-spacing: 1px;
+  }
+  .rightfoot{
+    display: flex;
+    flex-direction: column;
+  }
+  .rightfoot .mailfoot{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .mailfoot:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+  }
+  .rightfoot .social{
+    position: relative;
+    top: 25px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .social a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+  }
+  
+  .footer2 p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    /* Responsive Styles */
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.mid-txt {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.mailbox {
+  text-align: center;
+}
+
+.msg, .coffee, .cof {
+  font-size: 14px;
+  color: #000000;
+}
+
+.mail {
+  color: black;
+}
+
+/* Page 2 Styles */
+.page2 {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.socials p {
+  font-size: 20px;
+}
+
+.insta, .face {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f4f4f4;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.leftfoot {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.rightfoot .mailfoot {
+  font-size: 14px;
+}
+
+.rightfoot .social {
+  margin-top: 20px;
+}
+
+
+  }
+

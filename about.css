@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@300&display=swap');
+
+.port {
+    width: 100%;
+    margin-top: 7%;
+    height: 60vh;
+    padding-top: 50px;
+  }
+  .intro{
+    display: flex;
+   flex-direction: row; /* Set flex-direction to column */
+    align-items: center;
+    text-align: center;
+  }
+  .name {
+    font-size: 8vw;
+    visibility: hidden;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .ri-arrow-down-line{
+    color: black;
+    font-size: 3rem;
+    margin-right: 10%;
+    visibility: hidden;
+    left: 50px;
+    position: relative;
+
+  }
+  .arrow{
+    max-width: 15ch;
+    font-size: 13px;
+    visibility: hidden;
+  }
+/*.about{
+  background: url(/assets/bed.webp) no-repeat ;
+  background-position: center;
+  background-size: cover;
+  height: 15vh;
+  opacity: 0.9;
+}*/
+  #about{
+    height: 70vh;
+    width: 100%;
+   /* background-color: black;*/
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    flex-direction: column;
+    overflow: hidden;
+   }
+  /*.about h5{
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+  }
+  .about h5::before{
+    content: "";
+    position: absolute;
+    left: -18%;
+    top: 7px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+  }*/
+  #about h1{
+    font-size: 25px;
+    width: 50%;
+    position: relative;
+    margin: 26px 0;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 20px;
+  }
+#about>h1>span{
+  color: red;
+}
+  #contact{
+    display: flex;
+    align-items: center;
+  }
+  #contact>h4{
+    font-size: 17px;
+    font-weight: 500;
+  }
+  #greendiv{
+    height:40px ;
+    width: 80px;
+    border: 2px solid red;
+    border-radius: 50px;
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  #greendiv>a>i{
+    font-size: 25px;
+    margin-left: 24px;
+    color: white;
+  }
+  #greendiv>a{
+    text-decoration: none;
+  }
+  @media screen and (max-width: 767px) {
+    #about {
+      height: auto; /* Remove fixed height */
+    }
+    .port {
+      width: 100%;
+      margin-top: 7%;
+      height: 30vh;
+      padding-top: 50px;
+    }
+  
+    #about h1 {
+      font-size: 20px; /* Adjust font size */
+      width: 80%; /* Adjust width */
+      margin: 20px 0; /* Adjust margins */
+    }
+  }
