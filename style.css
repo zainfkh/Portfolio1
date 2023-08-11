@@ -280,6 +280,7 @@ color: white;
     .hero-image {
         top: 35px;
         height: 100vh;
+        opacity: 0.9;
       }
     
       .wrapper-img {
@@ -290,9 +291,9 @@ color: white;
         height: 200px; /* Set a shorter height for mobile view */
       }
       .title {
-        font-size: 20vw;
+        font-size: 21vw;
         font-family: 'Bebas Neue', sans-serif;
-        top: 75%;
+        top: 65%;
       }
       .menu {
         height: auto;
