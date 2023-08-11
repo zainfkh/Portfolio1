@@ -274,16 +274,12 @@ color: white;
       display: none;
 
     }
-    .hero-img{
-      width: 90%;
-    }
     nav{
         position: relative;
     }
     .hero-image {
         top: 35px;
         height: 100vh;
-    left: 29px;
       }
     
       .wrapper-img {
@@ -296,7 +292,7 @@ color: white;
       .title {
         font-size: 20vw;
         font-family: 'Bebas Neue', sans-serif;
-        top: 65%;
+        top: 75%;
       }
       .menu {
         height: auto;
