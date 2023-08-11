@@ -330,7 +330,9 @@ color: white;
       .link-1{
         display: none;
       }
-      
+      .images{
+        display: none;
+      }
     
       .contact-btn {
         margin: 0;
