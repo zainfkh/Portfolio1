@@ -13,7 +13,7 @@
     text-align: center;
   }
   .name {
-    font-size: 8vw;
+    font-size: 6.5vw;
     visibility: hidden;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 2px;
@@ -116,8 +116,15 @@
     .port {
       width: 100%;
       margin-top: 7%;
-      height: 30vh;
+      height: 23vh;
       padding-top: 50px;
+    }
+    .name{
+      font-size: 37px;
+      padding-right: 10px;
+    }
+    .arrow{
+      max-width: 10ch;
     }
   
     #about h1 {
