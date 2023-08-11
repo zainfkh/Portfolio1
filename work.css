@@ -99,6 +99,9 @@
 
 }
 @media screen and (max-width: 767px){
+    .page5{
+        height: 150vh;
+    }
     .work__title{
         font-size: 5vw;
     }

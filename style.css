@@ -279,7 +279,8 @@ color: white;
         position: relative;
     }
     .hero-image {
-        top: 50px;
+        top: 35px;
+        height: 100vh;
       }
     
       .wrapper-img {
