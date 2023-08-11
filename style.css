@@ -298,9 +298,7 @@ color: white;
         height: auto;
         /* Prevents wrapping of menu items */
       }
-      .images{
-        display: none;
-      }
+     
     
       .menu-item {
         flex: none;
@@ -328,8 +326,11 @@ color: white;
       .menu-link {
         padding: 10px 15px;
         font-size: 12px;
+      }
+      .link-1{
         display: none;
       }
+      
     
       .contact-btn {
         margin: 0;

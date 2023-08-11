@@ -61,7 +61,7 @@ gsap.to('.main', {
     scrollTrigger: {
         trigger: '.page2',
         scroller: 'body',
-       markers:true,
+       //markers:true,
         start: 'top 40%',
         end: 'top 20%',
         toggleActions: 'play none none reverse',
