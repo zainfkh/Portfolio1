@@ -219,7 +219,6 @@ body::-webkit-scrollbar {
     background-color: #000;
     font-family: 'Roboto', sans-serif;
     position: relative;
-
   }
   .footer1{
     display: flex;
@@ -231,7 +230,7 @@ body::-webkit-scrollbar {
   }
   .footer1 .leftfoot {
     color: white;
-    font-size: 2vw;
+    font-size: 2.2vw;
     letter-spacing: 1px;
   }
   .rightfoot{
@@ -346,7 +345,9 @@ color: white;
         font-family: 'Roboto', sans-serif;
   }
   .footer1{
-    padding: 0 2%;
+    padding: 0 3%;
+    padding-top: 7%;
+    margin-bottom: 12%;
   }
   .rightfoot .mailfoot{
     text-decoration: none;

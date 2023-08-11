@@ -107,7 +107,7 @@ padding-bottom: 35%;
     justify-content: center;
     text-align: center;
 }
-.insta,.face{
+.insta,.face,.din{
    margin-top: 5%;
     color: rgb(255, 255, 255) ;
     font-size: 25px;
@@ -115,14 +115,15 @@ padding-bottom: 35%;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
-.insta:hover,.face:hover{
+.insta:hover,.face:hover,.din:hover{
     text-decoration: underline;
 }
 footer{
-    height: 50vh;
-    width: 100%;
-    background-color: white;
-    font-family: 'Roboto', sans-serif;
+  height: 50vh;
+  width: 100%;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
   }
   .footer1{
     display: flex;
@@ -131,6 +132,7 @@ footer{
     padding: 0 8%;
     padding-top: 7%;
     margin-bottom: 12%;
+
   }
   .footer1 .leftfoot {
     color: rgb(0, 0, 0);
@@ -143,16 +145,16 @@ footer{
   }
   .rightfoot .mailfoot{
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
+    color: black;
+    font-size: 16px;
     text-transform: uppercase;
+    margin-bottom: 10px;
   }
   .mailfoot:hover{
     text-decoration: underline;
     color: rgb(0, 0, 0);
   }
   .rightfoot .social{
-    position: relative;
     top: 25px;
     gap: 5px;
     display: flex;
@@ -187,8 +189,9 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 30px;
+  height: 80vh;
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: white;
 }
 
 .mid-txt {
@@ -212,26 +215,36 @@ header {
 
 /* Page 2 Styles */
 .page2 {
-  background-color: #000000;
-  color: white;
   text-align: center;
   padding: 30px;
+  height: 70vh;
 }
 
 .socials p {
-  font-size: 20px;
+  font-size: 25px;
+
+}
+.socials{
+  margin-top: 15%;
 }
 
-.insta, .face {
-  margin-top: 20px;
-  font-size: 16px;
+.insta, .face, .din {
+  margin-top: 30px;
+  font-size: 18px;
 }
 
 /* Footer Styles */
-footer {
-  background-color: #f4f4f4;
-  padding: 30px 0;
-  text-align: center;
+footer{
+    height: 30vh;
+    width: 100%;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+.footer1{
+  padding: 0 3%;
+  padding-top: 7%;
+  margin-bottom: 12%;
 }
 
 .leftfoot {
@@ -240,11 +253,20 @@ footer {
 }
 
 .rightfoot .mailfoot {
-  font-size: 14px;
+  text-decoration: none;
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
-.rightfoot .social {
-  margin-top: 20px;
+.rightfoot .social{
+  top: 25px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 
