@@ -217,7 +217,7 @@ header {
 .page2 {
   text-align: center;
   padding: 30px;
-  height: 70vh;
+  height: 100vh;
 }
 
 .socials p {
@@ -232,43 +232,6 @@ header {
   margin-top: 30px;
   font-size: 18px;
 }
-
-/* Footer Styles */
-footer{
-    height: 30vh;
-    width: 100%;
-    background-color: white;
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-}
-.footer1{
-  padding: 0 3%;
-  padding-top: 7%;
-  margin-bottom: 12%;
-}
-
-.leftfoot {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-.rightfoot .mailfoot {
-  text-decoration: none;
-    color: black;
-    font-size: 12px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-.rightfoot .social{
-  top: 25px;
-  gap: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
 
   }
 
