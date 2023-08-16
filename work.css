@@ -44,7 +44,7 @@
 
 /* xs */
 
-.page5{
+#page5{
     padding-top: 100px;
     height: 200vh;
     padding-right: 5vw;
@@ -52,7 +52,7 @@
     overflow: hidden;
 
 }
-.page5 a{
+#page5 a{
     text-decoration: none;
     color: black;
 }
@@ -99,7 +99,7 @@
 
 }
 @media screen and (max-width: 767px){
-    .page5{
+    #page5{
         height: 120vh;
     }
     .work__title{
